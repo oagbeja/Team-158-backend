@@ -1,12 +1,10 @@
-# Team-158-backend-API
+#Team-158-Backen-API Installation guide
 
-# Installation guide
-
-# Install composer and laravel 7
+Install composer and laravel 7
 
 fork the repository and clone
 
-git remote add upstream https://github.com/BuildForSDGCohort2/Team-158-backend.git
+git remote add upstream <https://github.com/BuildForSDGCohort2/Team-158-backend.git>
 
 git checkout Develop
 
@@ -18,7 +16,8 @@ php artisan key:generate
 
 php artisan serve
 
-# To push after working on the repo
+To push after working on the repo
+
 git add .
 
 git commit -m "your commit message"
@@ -27,13 +26,11 @@ git pull upstream Develop
 
 git push origin Develop
 
-# Make sure there is no conflict
+Make sure there is no conflict
 
-# Create pull request
+Create pull request
 
 Add the description of what you have done in your pull request
-
-# Testing 
 
 No live link yet
 
